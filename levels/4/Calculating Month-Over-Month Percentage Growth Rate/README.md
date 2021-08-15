@@ -22,8 +22,7 @@ The resulting set should look similar to the following:
 | 2016-04-01 | 345   | 2.1%           |
 | 2016-05-01 | 295   | -14.5%         |
 | 2016-06-01 | 330   | 11.9%          |
-
-...
+| ...        |       |                |
 
 - date - (DATE) a first date of the month
 - count - (INT) a number of posts in a given month

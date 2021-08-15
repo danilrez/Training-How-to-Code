@@ -10,8 +10,7 @@ Given the the schema presented below find two actors who cast together the most 
 | -------- | -------- | --------- |
 | actor_id | smallint | not null  |
 | film_id  | smallint | not null  |
-
-...
+| ...      |          |           |
 
 #### Table actor
 
@@ -20,8 +19,7 @@ Given the the schema presented below find two actors who cast together the most 
 | actor_id   | integer               | not null  |
 | first_name | character varying(45) | not null  |
 | last_name  | character varying(45) | not null  |
-
-...
+| ...        |                       |           |
 
 #### Table film
 
@@ -29,16 +27,14 @@ Given the the schema presented below find two actors who cast together the most 
 | ------- | ---------------------- | --------- |
 | film_id | integer                | not null  |
 | title   | character varying(255) | not null  |
-
-...
+| ...     |                        |           |
 
 #### The desired output:
 
 | first_actor | second_actor | title               |
 | ----------- | ------------ | ------------------- |
 | John Doe    | Jane Doe     | The Best Movie Ever |
-
-...
+| ...         |              |                     |
 
 - `first_actor` - Full name _(First name + Last name separated by a space)_
 - `second_actor` - Full name _(First name + Last name separated by a space)_
