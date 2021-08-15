@@ -1,13 +1,9 @@
 # Total area covered by rectangles
 
-### Link:
-
-> www.codewars.com/kata/55dcdd2c5a73bdddcb000044
-
 ### Details:
 
 Your task in order to complete this Kata is to write a function which calculates the area covered by a [union](<https://en.wikipedia.org/wiki/Union_(set_theory)>) of rectangles.
-Rectangles can have **non-empty intersection**, in this way simple solution: **`S`**_all_ = **`S`**_1_ + **`S`**_2_ + ... + **`S`**_n-1_ + **`S`**_n_ _(where n - the quantity of rectangles)_ **will not work**.
+Rectangles can have **non-empty intersection**, in this way simple solution: **S**_all_ = **S**_1_ + **S**_2_ + ... + **S**_n-1_ + **S**_n_ _(where n - the quantity of rectangles)_ **will not work**.
 
 #### Preconditions
 
@@ -38,4 +34,4 @@ java: RectanglesUnion.calculateSpace(new int[][]{{3,3,8,5}, {6,3,8,9}, {11,6,14,
 
 ### Solutions:
 
-[JavaScript](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/3%20kyu/Total%20area%20covered%20by%20rectangles/Solutions/JS.js)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/3/Total%20area%20covered%20by%20rectangles/Solutions/JS.js)

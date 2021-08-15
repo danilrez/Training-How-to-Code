@@ -1,14 +1,11 @@
 # Challenge: Transpose two-dimensional arrays
 
-### Link:
-
-> www.codewars.com/kata/592b1e4c96cc12de1e0000b1
-
 ### Details:
 
 Given a table with a following schema
 
 #### Table "public.matrices"
+
 ```
  Column |  Type  | Modifiers
 --------+--------+-----------
@@ -18,6 +15,7 @@ Given a table with a following schema
 which holds a set of two-dimensional text arrays i.e.
 
 #### matrix
+
 ```
 -------------------
  {{1,2,3},{4,5,6}}
@@ -28,6 +26,7 @@ which holds a set of two-dimensional text arrays i.e.
 your goal is to wite a SELECT statement or a CTE that returns array data in a transposed form
 
 #### matrix
+
 ```
 ---------------------
  {{1,4},{2,5},{3,6}}
@@ -39,4 +38,4 @@ You can't use / create user definded functions and resort to procedural PL/pgSQL
 
 ### Solutions:
 
-[JavaScript](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/3%20kyu/Total%20area%20covered%20by%20rectangles/Solutions/JS.js)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/sql.svg" height="24px" alt="SQL">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/3/Challenge%20Transpose%20two-dimensional%20arrays/Solutions/SQL.sql)
