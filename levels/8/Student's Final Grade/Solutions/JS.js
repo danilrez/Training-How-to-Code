@@ -1,8 +1,8 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
-};
+const finalGrade = (exam, projects) =>
+	exam > 90 || projects > 10
+		? 100
+		: exam > 75 && projects >= 5
+		? 90
+		: exam > 50 && projects >= 2
+		? 75
+		: 0;

@@ -1,8 +1,1 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
-};
+const simpleMultiplication = (num) => (num % 2 === 0 ? num * 8 : num * 9);

@@ -1,8 +1,2 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
-};
+const arrayPlusArray = (arr1, arr2) =>
+	[...arr1].reduce((a, b) => a + b) + [...arr2].reduce((a, b) => a + b);

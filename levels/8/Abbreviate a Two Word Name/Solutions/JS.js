@@ -1,8 +1,2 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
-};
+const abbrevName = (name) =>
+	(name.split(' ')[0][0] + '.' + name.split(' ')[1][0]).toUpperCase();

@@ -1,15 +1,29 @@
-# Pete, the baker
+# Beginner Series #2 Clock
 
 ### Details:
 
-Beginner Series #2 Clock
-https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
-JS
+Clock shows `h` hours, `m` minutes and `s` seconds after midnight.
 
+Your task is to write a function which returns the time since midnight in milliseconds.
+
+#### Example
+
+```javascript
+h = 0;
+m = 1;
+s = 1;
 ```
-const past = (h, m, s) => ((h*3600)+(m*60)+s)*1000
+
+result = 61000
+
+#### Input constraints
+
+```javascript
+0 <= h <= 23;
+0 <= m <= 59;
+0 <= s <= 59;
 ```
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js)

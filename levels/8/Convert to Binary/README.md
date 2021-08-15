@@ -1,12 +1,23 @@
-# Pete, the baker
+# Convert to Binary
 
 ### Details:
 
-Convert to Binary
-https://www.codewars.com/kata/59fca81a5712f9fa4700159a
-JS
-const toBinary = n => +parseInt(n).toString(2)
+Given a non-negative integer `n`, write a function `to_binary`/`ToBinary` which returns that number in a binary format.
+
+```javascript
+to_binary(1); /* should return 1 */
+to_binary(5); /* should return 101 */
+to_binary(11); /* should return 1011 */
+```
+
+### Example
+
+```javascript
+toBinary(1); /* should return 1 */
+toBinary(5); /* should return 101 */
+toBinary(11); /* should return 1011 */
+```
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js)

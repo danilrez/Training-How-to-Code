@@ -1,14 +1,24 @@
-# Pete, the baker
+# altERnaTIng cAsE <=> ALTerNAtiNG CaSe
 
 ### Details:
 
-altERnaTIng cAsE <=> ALTerNAtiNG CaSe
-https://www.codewars.com/kata/56efc695740d30f963000557
-JS
-String.prototype.toAlternatingCase = function () {
-return this.split('').map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')
-}
+Define `String.prototype.toAlternatingCase` (or a similar function/method such as `to_alternating_case`/`toAlternatingCase`/`ToAlternatingCase` in your selected language; **see the initial solution for details**) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.
+
+#### For example
+
+```javascript
+'hello world'.toAlternatingCase() === 'HELLO WORLD';
+'HELLO WORLD'.toAlternatingCase() === 'hello world';
+'hello WORLD'.toAlternatingCase() === 'HELLO world';
+'HeLLo WoRLD'.toAlternatingCase() === 'hEllO wOrld';
+'12345'.toAlternatingCase() === '12345'; // Non-alphabetical characters are unaffected
+'1a2b3c4d5e'.toAlternatingCase() === '1A2B3C4D5E';
+'String.prototype.toAlternatingCase'.toAlternatingCase() ===
+	'sTRING.PROTOTYPE.TOaLTERNATINGcASE';
+```
+
+As usual, your function/method should be pure, i.e. it should **not** mutate the original string.
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js)

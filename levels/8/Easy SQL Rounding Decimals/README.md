@@ -1,15 +1,17 @@
-# Pete, the baker
+# Easy SQL: Rounding Decimals
 
 ### Details:
 
-Easy SQL: Rounding Decimals
-https://www.codewars.com/kata/594a6133704e4daf5d00003d
-SQL
-SELECT
-FLOOR(number1) number1,
-CEIL(number2) number2
-FROM decimals
+Given the following table '**_decimals_**':
+
+#### decimals table schema
+
+| id  | number1 | number2 |
+| --- | ------- | ------- |
+| ... | ...     | ...     |
+
+Return a table with two columns _(number1, number2)_, the value in number1 should be rounded down and the value in number2 should be rounded up.
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/sql.svg" height="24px" alt="SQL">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js)

@@ -1,38 +1,14 @@
-# Pete, the baker
+# Get Planet Name By ID
 
 ### Details:
 
-Get Planet Name By ID
-https://www.codewars.com/kata/515e188a311df01cba000003
-JS
-const getPlanetName = id => {
-switch(id){
-case 1:
-return 'Mercury'
-break;
-case 2:
-return 'Venus'
-break;
-case 3:
-return 'Earth'
-break;
-case 4:
-return 'Mars'
-break;
-case 5:
-return 'Jupiter'
-break;
-case 6:
-return 'Saturn'
-break;
-case 7:
-return 'Uranus'
-break;
-case 8:
-return 'Neptune'
-break;
-}
-}
+The function is not returning the correct values. Can you figure out why?
+
+#### Example _(**Input** --> **Output** )_:
+
+```javascript
+3 --> "Earth"
+```
 
 ### Solutions:
 

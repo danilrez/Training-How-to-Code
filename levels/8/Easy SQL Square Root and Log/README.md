@@ -1,15 +1,17 @@
-# Pete, the baker
+# Easy SQL: Square Root and Log
 
 ### Details:
 
-Easy SQL: Square Root and Log
-https://www.codewars.com/kata/594a691720ac16a544000075
-SQL
-SELECT
-SQRT(number1) root,
-LOG(number2) log
-FROM decimals
+Given the following table '**_decimals_**':
+
+#### decimals table schema
+
+| id  | number1 | number2 |
+| --- | ------- | ------- |
+| ... | ...     | ...     |
+
+Return a table with two columns _(root, log)_ where the values in root are the square root of those provided in number1 and the values in log are changed to a base 10 logarithm from those in number2.
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/sql.svg" height="24px" alt="SQL">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js)

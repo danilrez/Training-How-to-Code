@@ -1,8 +1,1 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
-};
+const isDivisible = (n, x, y) => n % x === 0 && n % y === 0;
