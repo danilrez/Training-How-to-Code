@@ -1,4 +1,4 @@
-# <img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo.svg" height="30px">
+# <img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo.svg" height="30px"> <img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo_text.svg" height="30px">
 
 Solutions for some of my completed katas from [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo_text.svg" height="12px">](https://www.codewars.com/)
 
