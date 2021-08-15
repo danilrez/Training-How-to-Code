@@ -1,6 +1,6 @@
-# <img src="https://www.codewars.com/assets/logos/logo-61192cf7c75904d495e7ad69695fbf0bffd965bc3e17ac60f6c6b475304db09d.svg" height="30px"> <img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo.svg" height="30px">
+# <img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo.svg" height="30px">
 
-Solutions for some of my completed katas from [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo.svg" height="12px">](https://www.codewars.com/)
+Solutions for some of my completed katas from [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo_text.svg" height="12px">](https://www.codewars.com/)
 
 #### Difficulty:
 
