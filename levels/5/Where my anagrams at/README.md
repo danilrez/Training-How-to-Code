@@ -26,4 +26,4 @@ Write a function that will find all the anagrams of a word from a list. You will
 
 ### Solutions:
 
-[JavaScript](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/JS.js), [C#](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/C%23.cs), [Python](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/PY.py)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/C%23.cs), [Python](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/PY.py)
