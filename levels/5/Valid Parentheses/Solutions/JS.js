@@ -1,8 +1,9 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
+const validParentheses = (str) => {
+	let n = 0;
+	for (let i = 0; i < str.length; i++) {
+		if (str[i] === '(') n++;
+		if (str[i] === ')') n--;
+		if (n < 0) return false;
+	}
+	return n === 0;
 };

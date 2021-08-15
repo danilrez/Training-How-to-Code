@@ -1,56 +1,35 @@
-# Pete, the baker
+# My smallest code interpreter (aka Brainf\*\*k)
 
 ### Details:
 
-My smallest code interpreter (aka Brainf\*\*k)
-https://www.codewars.com/kata/526156943dfe7ce06200063e
-TS
-export const brainLuck = (code: string, input: string) => {
-let dataPointer: number = 0;
-let instructionPointer: number = 0;
-let inputPointer: number = 0;
-const data: number[] = [];
-let output: string = "";
+Inspired from real-world Brainf\*\*k, we want to create an interpreter of that language which will support the following instructions:
 
-const getByte = () => data[dataPointer] || 0;
-const setByte = (val: number) => data[dataPointer] = val;
-const getInput = () => input[inputPointer++].charCodeAt(0);
-const mutate = fn => data[dataPointer] = (fn(getByte()) + 256) % 256;
+- `>` increment the data pointer _(to point to the next cell to the right)_.
+- `<` decrement the data pointer _(to point to the next cell to the left)_.
+- `-` increment _(increase by one, truncate overflow: 255 + 1 = 0)_ the byte at the data pointer.
+- `-` decrement _(decrease by one, treat as unsigned byte: 0 - 1 = 255 )_ the byte at the data pointer.
+- `.` output the byte at the data pointer.
+- `,` accept one byte of input, storing its value in the byte at the data pointer.
+- `[` if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching `]` command.
+- `]` if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching `[` command.
 
-while (instructionPointer < code.length) {
-const instruction = code[instructionPointer];
-switch (instruction) {
-case '>': dataPointer++; break;
-case '<': dataPointer--; break;
-case '+': mutate(b => b + 1); break;
-case '-': mutate(b => b - 1); break;
-case '.': output += String.fromCharCode(getByte()); break;
-case ',': setByte(getInput()); break;
-case '[':
-if (getByte() === 0) {
-let nesting = 1;
-while (nesting > 0) {
-instructionPointer++;
-if (code[instructionPointer] === ']') { nesting--; }
-else if (code[instructionPointer] === '[') { nesting++; }
-}
-} break;
-case ']':
-if (getByte() !== 0) {
-let nesting = 1;
-while (nesting > 0) {
-instructionPointer--;
-if (code[instructionPointer] === '[') { nesting--; }
-else if (code[instructionPointer] === ']') { nesting++; }
-}
-} break;
-default: throw new Error(`Unknown instruction ${instruction}`);
-}
-instructionPointer++;
-}
-return output;
-}
+The function will take in input...
+
+- the program code, a string with the sequence of machine instructions,
+- the program input, a string, eventually empty, that will be interpreted as an array of bytes using each character's ASCII code and will be consumed by the `,` instruction
+
+... and will return ...
+
+- the output of the interpreted code _(always as a string)_, produced by the . instruction.
+
+Implementation-specific details for this Kata:
+
+- Your memory tape should be large enough - the original implementation had 30,000 cells but a few thousand should suffice for this Kata
+- Each cell should hold an unsigned byte with wrapping behavior _(i.e. 255 + 1 = 0, 0 - 1 = 255)_, initialized to 0
+- The memory pointer should initially point to a cell in the tape with a sufficient number _(e.g. a few thousand or more)_ of cells to its right. For convenience, you may want to have it point to the leftmost cell initially
+- You may assume that the `,` command will never be invoked when the input stream is exhausted
+- Error-handling, e.g. unmatched square brackets and/or memory pointer going past the leftmost cell is not required in this Kata. If you see test cases that require you to perform error-handling then please open an Issue in the Discourse for this Kata _(don't forget to state which programming language you are attempting this Kata in)_.
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts)

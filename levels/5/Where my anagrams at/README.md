@@ -1,9 +1,5 @@
 # Where my anagrams at?
 
-### Link:
-
-> www.codewars.com/kata/523a86aa4230ebb5420001e1/train/javascript
-
 ### Details:
 
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
@@ -26,4 +22,4 @@ Write a function that will find all the anagrams of a word from a list. You will
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/PY.py)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/JS.js) [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/C%23.cs) [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Where%20my%20anagrams%20at/Solutions/PY.py)

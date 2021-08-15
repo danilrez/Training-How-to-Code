@@ -1,8 +1,9 @@
-const cakes = (recipe, available) => {
-  const cakesByIngridients = [];
-  for (const key in recipe) {
-    if (!available.hasOwnProperty(key)) return 0;
-    cakesByIngridients.push(Math.floor(available[key] / recipe[key]));
-  }
-  return Math.min(...cakesByIngridients);
+const humanReadable = (sec) => {
+	const time = (num) => (num < 10 ? `0${num}` : num);
+
+	const SS = time(sec % 60),
+		MM = time(Math.floor(sec / 60) % 60),
+		HH = time(Math.floor(sec / 3600));
+
+	return `${HH}:${MM}:${SS}`;
 };

@@ -1,9 +1,5 @@
 # Last digit of a large number
 
-### Link:
-
-> www.codewars.com/kata/5511b2f550906349a70004e1
-
 ### Details:
 
 Define a function that takes in two non-negative integers aaa and bbb and returns the last decimal digit of a^b. Note that a and b may be very large!
@@ -27,4 +23,4 @@ Since these languages don't have native arbitrarily large integers, your argumen
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/PY.py)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/JS.js) [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/PY.py)
