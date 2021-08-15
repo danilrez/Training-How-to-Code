@@ -20,4 +20,4 @@ Let us call `solve` the function `solve(m)` which returns `x` such as `U(n, x)` 
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/5/Which%20x%20for%20that%20sum/Solutions/TS.ts)

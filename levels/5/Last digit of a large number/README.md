@@ -23,4 +23,4 @@ Since these languages don't have native arbitrarily large integers, your argumen
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/JS.js) [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Last%20digit%20of%20a%20large%20number/Solutions/PY.py)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/5/Last%20digit%20of%20a%20large%20number/Solutions/JS.js) [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/python.svg" height="24px" alt="Python">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/5/Last%20digit%20of%20a%20large%20number/Solutions/PY.py)

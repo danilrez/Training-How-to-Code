@@ -32,4 +32,4 @@ Implementation-specific details for this Kata:
 
 ### Solutions:
 
-[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/5%20kyu/Gap%20in%20Primes/Solutions/TS.ts)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](<https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/5/My%20smallest%20code%20interpreter%20(aka%20Brainf--k)/Solutions/TS.ts>)
