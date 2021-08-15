@@ -1,9 +1,5 @@
 # Twice linear
 
-### Link:
-
-> www.codewars.com/kata/5672682212c8ecf83e000050
-
 ### Details:
 
 Consider a sequence `u` where u is defined as follows:
@@ -32,4 +28,4 @@ Focus attention on efficiency
 
 ### Solutions:
 
-[JavaScript](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/4%20kyu/Twice%20linear/Solutions/JS.js), [TypeScript](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/4%20kyu/Twice%20linear/Solutions/TS.ts), [C#](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/4%20kyu/Twice%20linear/Solutions/C%23.cs), [PowerShell](https://github.com/CrappyCodeMaker/CODEWARS/blob/main/4%20kyu/Twice%20linear/Solutions/PS.ps1)
+[<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/javascript.svg" height="24px" alt="JavaScript">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/4/Twice%20linear/Solutions/JS.js), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/typescript.svg" height="24px" alt="TypeScript">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/4/Twice%20linear/Solutions/TS.ts), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/csharp.svg" height="24px" alt="C#">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/4/Twice%20linear/Solutions/C%23.cs), [<img src="https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/images/logo/powershell.svg" height="24px" alt="PowerShell">](https://github.com/CrappyCodeMaker/Training-How-to-Code/blob/master/levels/4/Twice%20linear/Solutions/PS.ps1)
