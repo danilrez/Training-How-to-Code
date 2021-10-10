@@ -1,9 +1,5 @@
 # Calculating Batting Average
 
-### Link:
-
-> www.codewars.com/kata/5994dafcbddc2f116d000024
-
 ### Details:
 
 In baseball, the batting average is a simple and most common way to measure a hitter's performace. Batting average is calculated by taking all the players `hits` and dividing it by their number of `at_bats`, and it is usually displayed as a 3 digit decimal _(i.e. 0.300)_.
@@ -11,7 +7,7 @@ In baseball, the batting average is a simple and most common way to measure a hi
 Given a `yankees` table with the following schema:
 
 - `player_id` STRING
-- ` player_name` STRING
+- `player_name` STRING
 - `primary_position` STRING
 - `games` INTEGER
 - `at_bats` INTEGER

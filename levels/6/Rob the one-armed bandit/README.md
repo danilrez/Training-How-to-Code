@@ -1,9 +1,5 @@
 # Rob the one-armed bandit
 
-### Link:
-
-> www.codewars.com/kata/601ae2a5f6d6bb0012947f27
-
 ### Details:
 
 It's about time your hacking skills paid off! You've come across proprietary code for a slot machine _(see below)_, and as it turns out, the program uses a pseudorandom number generator that isn't very random. Now you've realized the potential to win big!
@@ -16,6 +12,7 @@ This is a simple one-line game where the 3 reels spin and stop at random positio
 
 Play continues until the session terminates _(e.g. due to an invalid wager)_, you run out of time or money _(the return to player averages just 98% per spin)_, or the millionaire casino owner goes broke. To beat this kata, you'll have to strike it rich, and then repeat your success as proof. It's too bad the money isn't real!
 
+```Python
         state = None
         def pseudorandom():
             global state, random_seed
@@ -71,6 +68,7 @@ Play continues until the session terminates _(e.g. due to an invalid wager)_, yo
             if bankroll < 1.00 or bankroll >= threshold:
                 raise FutureWarning  # end the session
             return view, bankroll
+```
 
 ### Solutions:
 
